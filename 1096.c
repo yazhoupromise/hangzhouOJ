@@ -1,14 +1,14 @@
 #include <stdio.h>
 int main()
 {
-	int sum,n,m,i,b;
-	scanf("%d",&n);
-	while(n--)
+	int sum,a,n,i,b;
+	scanf("%d",&a);
+	while(a--)
      {
-		if(scanf("%d",&m)!=EOF)
+		if(scanf("%d",&n)!=EOF)
 		{
 			sum=0;
-			for(i=0;i<m;i++)
+			for(i=0;i<n;i++)
 			{
 				scanf("%d",&b);
 				sum+=b;
